@@ -1,0 +1,198 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-text{
+  color: #203864;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+  margin: 10px 0px 5px 0px;
+}
+
+.header{
+  display: flex;
+  /* border: 1px solid red; */
+  flex-direction: column;
+}
+
+.header-name{
+  /* border: 1px solid red; */
+  font-size: 25px;
+}
+
+.header-aboutme{
+  padding: 8px;
+}
+.header-contact{
+  padding: 10px;
+  background-color: #203864;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+.contact-icon{
+  /* border: 1px solid red; */
+  padding: 5px;
+}
+
+.contact-info{
+  /* border: 1px solid red; */
+  padding: 5px;
+}
+
+.contact-info-container{
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+
+skills-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.skills{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.skill{
+  padding: 5px;
+  margin: 2px;
+  background-color: #203864;
+  color: white;
+  border-radius: 5px;
+}
+
+.experience-container{
+  display: flex;
+  flex-direction: column;
+}
+.experience{
+  display: flex;
+  flex-direction: column;
+}
+.experience-job{
+  font-weight: bold;
+  margin-left: 5px;
+}
+.margin{
+  margin-left: 15px;
+}
+
+.secondary-text{
+      color: #203864;
+      font-weight: bold;
+      font-size: 18px;
+  }
+
+
+.experience-date-location{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.alternate-text{
+  font-weight: 800;
+  color: #6b6b6b;
+}
+
+.education-container{
+  display: flex;
+  flex-direction: column;
+}
+.education{
+  margin-left: 5px;
+}
+
+
+.skills,.experience, .language, .education{
+  margin-left: 10px;
+}
+
+.languages-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.languages{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.language
+{
+  margin-right:10px ;
+}
+
+.language-name{
+  font-weight: bold;
+}
+
+.certifications-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+
+
+}
+
+.certifications-container-g2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:left;
+
+
+}
+
+.certifications{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 260px;
+  /* border: 1px solid red; */
+  /* border: 1px solid red;  */
+
+}
+
+.certification-institution{
+  padding: 5px;
+}
+
+.badges{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.badge{
+  display: flex;
+  width: 370px;
+  justify-content: flex-start;
+}
+
+.badge-imag{
+padding:10px;
+}
+.badge-title {
+font-weight: bold;
+font-size: large;
+}
+.container{
+width: 1200px;
+padding: auto;
+margin: auto;
+}
+
+.badge-img{
+width: 120px;
+height: auto;
+}
